@@ -2,16 +2,16 @@ import bucketGirl from "../../assets/images/bucketgirl 1.png"
 const Landing = () => {
     return (
         <>
-            <div className="hero h-screen lg:h-[65vh] bg-accent mt-16">
-                <div className="hero-content flex-col lg:flex-row" >
-                    <div className=" max-w-xl">
+            <div className="  bg-accent">
+                <div className="flex px-6 lg:px-20 items-center  pt-20 flex-col lg:flex-row" >
+                    <div className=" max-w-xl ">
                         <p data-aos="fade-right" data-aos-delay="50" data-aos-duration="600">Best Quality</p>
-                        <h1 className="text-5xl font-bold" data-aos="fade-right" data-aos-delay="70" data-aos-duration="800">Professinal Cleaning Service</h1>
+                        <h1 className="text-3xl lg:text-5xl font-bold" data-aos="fade-right" data-aos-delay="70" data-aos-duration="800">Professinal Cleaning Service</h1>
                         <p className="py-6" data-aos="fade-right" data-aos-delay="90" data-aos-duration="1000">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <button className="btn btn-primary" data-aos-delay="400" data-aos="zoom-in">Get Started</button>
                     </div>
-                    <div className="h-[55vh] shrink-0 " data-aos="fade-left" data-aos-duration="1000">
-                        <img src={bucketGirl} className="max-w-sm h-full shadow-0 shrink-0" alt="" />
+                    <div className=" shrink-0 " data-aos="fade-left" data-aos-duration="1000">
+                        <img src={bucketGirl} className=" h-full shadow-0 shrink-0" alt="" />
                     </div>
                 </div>
             </div>

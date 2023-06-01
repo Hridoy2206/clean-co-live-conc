@@ -9,7 +9,7 @@ const Navbar = ({ children }) => {
     console.log(dark);
     const desktopMenu = <>
         <li><NavLink className=' rounded-lg' to="/">Home</NavLink></li>
-        {admin && <li><NavLink className=' rounded-lg' to="/dashboard">Dashborad</NavLink></li>}
+        {admin && <li><NavLink className=' rounded-lg' to="/dashboard/add-service">Dashborad</NavLink></li>}
         <li><NavLink className=' rounded-lg' to="/about">About</NavLink></li>
         <li><NavLink className=' rounded-lg' to="/services">Services</NavLink></li>
         <li><NavLink className=' rounded-lg' to="/contact">Contact</NavLink></li>
@@ -29,7 +29,7 @@ const Navbar = ({ children }) => {
     </>
     const phoneMenu = <>
         <li><NavLink className=' rounded-lg' to="/">Home</NavLink></li>
-        {admin && <li><NavLink className=' rounded-lg' to="/dashboard">Dashborad</NavLink></li>}
+        {admin && <li><NavLink className=' rounded-lg' to="/dashboard/ad-service">Dashborad</NavLink></li>}
         <li><NavLink className=' rounded-lg' to="/about">About</NavLink></li>
         <li><NavLink className=' rounded-lg' to="/services">Services</NavLink></li>
         <li><NavLink className=' rounded-lg' to="/contact">Contact</NavLink></li>
