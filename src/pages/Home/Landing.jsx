@@ -16,7 +16,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="mt-[-50px] relative bg-base-200 rounded-lg z-50 shadow-xl mx-auto p-8 w-5/6">
+            <div className="mt-[-50px] relative bg-base-200 rounded-lg z-20 shadow-xl mx-auto p-8 w-5/6">
                 <h1 className="text-2xl text-primary font-semibold mb-6">Get Free Estimate</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <input type="text" placeholder="Type here" className="input input-bordered w-full" />

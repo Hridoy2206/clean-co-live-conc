@@ -51,7 +51,7 @@ const Navbar = ({ children }) => {
     </>
 
     return (
-        <div className="drawer drawer-end" data-theme={dark ? "dark" : "light"}>
+        <div className="drawer drawer-end z-30" data-theme={dark ? "dark" : "light"}>
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 <div className="w-full navbar fixed top-0 z-50 bg-base-100 lg:px-16">
